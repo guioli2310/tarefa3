@@ -1,14 +1,14 @@
 body{
-  background: #EEE8AA;
+  background: #FFFFE0;
 }
 header{
-  background: white;
-}
+  background: yellow;
+  background-repeat: repeat;
+ }
 .caixa{
   position: relative;
-  width: 1000px;
+  width: 940px;
   margin: 0 auto;
-
 }
 nav{
   position: absolute;
@@ -26,21 +26,6 @@ nav a{
   font-weight: bold;
   font-size: 20px;
   text-decoration: none;
-}
-.titulo{
-  text-align: center;
-  font-size: 30px;
-  color: black;
-}
-.titulo2{
-  text-align: center;
-  font-size: 30px;
-  color: black;
-}
-.paragrafo{
-  text-align: center;
-  font-size: 30px;
-  color: black;
 }
 form{
   margin: 40px 0;
