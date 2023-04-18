@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pizzaria</title>
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+      <div class="pizza">
+        <h1><img src="pizza.webp"></h1>
+    </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Contato</a></li>
+            <li><a href="ofertas.html">Ofertas</a></li>
+            <li><a href="produto.html">Produto</a></li>
+          </ul>
+        </nav>
+    </header>
+
+    <h1 class="nao">FAÇA SEU PEDIDO</h1>
+    <form>
+     <fieldset>
+        <legend>Você deseja pizza de que??</legend>
+        <label for="radio-doce"><input type="radio" name="pizza" value="doce" id="radio-doce">Doce</label>
+        <label for="radio-salgada"><input type="radio" name="pizza" value="salgada" id="radio-salgada">Salgada</label>
+        <label for="radio-junto"><input type="radio" name="pizza" value="junto" id="radio-junto" checked>Junto</label>
+         </fieldset>
+         </form>
+         <table>
+      <thead>
+        <tr>
+          <th>Sabor</th>
+            <th>Preço</th>
+            <th>Tamanhos</th>
+        </tr>
+      </thead>
+
+       <tbody>
+          <tr>
+            <td>Calabresa</td>
+            <td>G-40,00 M-30,00</td>
+            <td>Grande e Médio</td>
+          </tr>
+          <tr>
+            <td>Portuguesa</td>
+            <td>G-46,00 M-38,00</td>
+            <td>Grande e Médio</td>
+            </tr>
+            <tr>
+              <td>Margherita</td>
+              <td>G-40,00 M-35,00</td>
+              <td>Grande e Médio</td>
+          </tr>
+          <tr>
+              <td>Frango com Catupiry</td>
+              <td>G-47,00 M-40,00</td>
+              <td>Grande e Médio</td>
+          </tr>
+          <tr>
+              <td>Muçarela</td>
+              <td>G-35,00 M-30,00</td>
+              <td>Grande e Médio</td>
+          </tr>
+          <tr>
+              <td>Napolitana</td>
+              <td>G-45,00 M-39,00</td>
+              <td>Grande e Médio</td>
+          </tr>
+          <tr>
+              <td>Quatro-Queijos</td>
+              <td>G-47,00 M-45,00</td>
+              <td>Grande e Médio</td>
+          </tr>
+        </tbody>
+    </table>
+
+    <h1>PREÇOS PIZZA DOCES</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Sabor</th>
+            <th>Preço</th>
+            <th>Tamanhos</th>
+        </tr>
+      </thead>
+
+       <tbody>
+          <tr>
+            <td>Chocolate com Morango</td>
+            <td>G-40,00 M-35,00</td>
+            <td>Grande e Médio</td>
+          </tr>
+          <tr>
+            <td>Romeu e Julieta</td>
+            <td>G-46,00 M-38,00</td>
+            <td>Grande e Médio</td>
+            </tr>
+            <tr>
+              <td>Banofe</td>
+              <td>G-40,00 M-35,00</td>
+              <td>Grande e Médio</td>
+          </tr>
+          <tr>
+              <td>Chocolate com Coco</td>
+              <td>G-47,00 M-40,00</td>
+              <td>Grande e Médio</td>
+          </tr>
+          <tr>
+              <td>Chocolate com Creme de Avelã</td>
+              <td>G-50,00 M-45,00</td>
+              <td>Grande e Médio</td>
+          </tr>
+        </tbody>
+      </table>
+      <form>
+      <fieldset>
+             <legend>Qual a forma de pagamento?</legend>
+             <select>
+               <option>Cartão</option>
+               <option>Dinheiro</option>
+               <option>Pix</option>
+             </select>
+           </fieldset>
+
+           <fieldset>
+             <legend>Vc quer retirar na loja ou quer que entrega?</legend>
+             <select>
+               <option>Retirar na loja</option>
+               <option>Entregar</option>
+             </select>
+           </fieldset>
+           </form>
+
+           <form>
+           <label for="mensagem"> Qual o seu pedido? </label>
+        <textarea cols="70" rows="10" id="mensagem" class="inputpadrao" required> </textarea>
+  
+         <input type="submit" value="Enviar Pedido" class="enviar">
+     </form>
+     
+      <footer>
+      <img src="pizza.gif" alt="Pizzaria">
+    </footer>
+
+
+
+
+</body>
+</html>
